@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Method", "Factory M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{834ECE96-F1C8-4470-A68C-6C270A192C1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{85F1116A-34DA-4A19-8AB6-71AE992AA4DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{85F1116A-34DA-4A19-8AB6-71AE992AA4DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent Builder", "Fluent Builder\Fluent Builder.csproj", "{AE327388-15F0-47CF-82C5-255810769A68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fluent Builder", "Fluent Builder\Fluent Builder.csproj", "{AE327388-15F0-47CF-82C5-255810769A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{CAA5F2A5-6EAB-4ED1-93AC-A1D49BF692B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AE327388-15F0-47CF-82C5-255810769A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE327388-15F0-47CF-82C5-255810769A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE327388-15F0-47CF-82C5-255810769A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA5F2A5-6EAB-4ED1-93AC-A1D49BF692B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA5F2A5-6EAB-4ED1-93AC-A1D49BF692B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA5F2A5-6EAB-4ED1-93AC-A1D49BF692B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA5F2A5-6EAB-4ED1-93AC-A1D49BF692B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
